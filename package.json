@@ -1,0 +1,30 @@
+{
+  "name": "hapi-api-reference",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec \"vite-node example/index.ts\" --ext ts --quiet --watch ./example --watch ./src",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "@types/node": "^22.7.4",
+    "eslint": "^9.11.1",
+    "neostandard": "^0.11.6",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2",
+    "vite-node": "^2.1.2"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": ">=20.x.x"
+  },
+  "dependencies": {
+    "@scalar/types": "^0.0.12"
+  }
+}

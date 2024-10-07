@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.history/
+.env
+.next
+.turbo
+*.tgz
+tsconfig.tsbuildinfo
+
+
+
+.DS_Store
